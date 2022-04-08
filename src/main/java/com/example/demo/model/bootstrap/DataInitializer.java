@@ -1,4 +1,4 @@
-package com.example.demo.bootstrap;
+package com.example.demo.model.bootstrap;
 
 import com.example.demo.model.Country;
 import com.example.demo.service.AuthorService;
