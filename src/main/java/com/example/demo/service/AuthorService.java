@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface AuthorService {
     List<Author> findAll();
+    Author save(String name, String surname, Country country);
 }
