@@ -19,4 +19,8 @@ public class AuthorServiceImpl implements AuthorService {
     public List<Author> findAll() {
         return this.authorRepository.findAll();
     }
+    @Override
+    public Author save(String name, String surname, Country country) {
+        return this.authorRepository.save(new Author(name,surname,country));
+    }
 }
